@@ -1,0 +1,49 @@
+.container{
+  margin: 20px;
+  padding: 0px;
+  border-radius: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.title{
+  display: inline-block;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 1rem;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+  height: 230px;
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.grid-card {
+  height: 400px;
+  width: 260px;
+  border-radius: 20px;
+  box-shadow: 4px 5px 10px black;
+  margin: 5px;
+}
+
+h1{
+  color: #404393;
+  background-color: #b1c2f0;
+}
+
+h2 {
+  color: #404393;
+}
+
+h2, p {
+  margin: 5px;
+  text-align: justify;
+}
